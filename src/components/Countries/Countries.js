@@ -12,15 +12,8 @@ const Countries = () => {
 
     return (
         <div>
-            <h2>Hello From Countries!</h2>
-            <h3>Latest!</h3>
-            {countries.map(country => <Country 
-            name = {country.name.common}
-            area = {country.area}
-            popu = {country.population}
-            // name = {country.name.common}
-            // name = {country.name.common}
-            ></Country>)}
+            <h2>All Countries!</h2>
+            {countries.map(country => <Country country = {country}></Country>)}
         </div>
     );
 };
