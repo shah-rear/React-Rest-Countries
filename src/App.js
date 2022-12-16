@@ -12,5 +12,5 @@ function App() {
     </div>
   );
 }
-//vccz
+//
 export default App;
